@@ -1,0 +1,101 @@
+# ==========================================
+# CodeIgniter 3
+# ==========================================
+
+.DS_Store
+
+# Cache
+application/cache/*
+!application/cache/index.html
+
+# Logs
+application/logs/*
+!application/logs/index.html
+
+# Protect .htaccess
+!application/*/.htaccess
+
+
+# ==========================================
+# Composer
+# ==========================================
+
+# Jika project menggunakan Composer,
+# vendor tidak perlu di-upload
+/vendor/
+
+# Biasanya composer.lock sebaiknya disimpan
+# composer.lock
+
+
+# ==========================================
+# CodeIgniter Tests / User Guide
+# ==========================================
+
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+/tests/tests/
+/tests/results/
+
+
+# ==========================================
+# IDE
+# ==========================================
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/
+
+# IntelliJ / PhpStorm
+.idea/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+
+# ==========================================
+# OS
+# ==========================================
+
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# Temporary / Backup Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
